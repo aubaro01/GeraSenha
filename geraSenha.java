@@ -14,8 +14,8 @@ public class geraSenha {
         System.out.println("Quantos dígitos você deseja que a senha tenha?");
         int numDigits = scanner.nextInt();
 
-        scanner.nextLine(); // para consumir a nova linha deixada pelo nextInt()
-
+        scanner.nextInt();
+        
         System.out.println("Para qual rede social ou serviço essa senha será usada?");
         String service = scanner.nextLine();
 
